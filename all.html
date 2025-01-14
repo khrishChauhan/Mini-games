@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+   <nav>
+        <div class="logo" onclick="window.location.href= 'all.html'" ><h1>Mini Games</h1></div>
+        <input type="text" placeholder="Search" class="searchBox">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </nav>
+    <hero>
+        <div class="container">
+            <div class="card" onclick="window.location.href= 'tic tac toe/index.html'" data-name="tic tac toe">
+                <h3 class="name">Tic Tac Toe</h3>
+                <div class="img pic1"></div>
+            </div>
+
+            <div class="card" onclick="window.location.href= 'Stone paper scissor/stone.html'" data-name="rock paper scissor">
+                <h3 class="name">Rock Paper Scissor</h3>
+                <div class="img pic2"></div>
+            </div>
+
+            <div class="card"  onclick="window.location.href= 'bubble game/bubble.html'"  data-name="bubble">
+                <h3 class="name">Bubble</h3>
+                <div class="img pic3"></div>
+            </div>
+        </div>
+    </hero>
+    <script src="all.js"></script>
+</body>
+</html>
